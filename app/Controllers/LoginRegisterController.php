@@ -52,7 +52,7 @@ class LoginRegisterController extends BaseController
 
                $session = $this->user->save($data);
 
-
+//deneme
                // eğer kullanıcı kayıt session ile oturum başlat
                $user = $this->user->where('email', $data['email'])->first();
 
